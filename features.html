@@ -1,4 +1,3 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,23 +11,23 @@
 
     <!-- Favicons -->
   <!-- Favicons -->
-  <link href="{% static 'assets/img/favicon.PNG' %}" rel="icon" >
-  <link href="{% static 'assets/img/apple-touch-icon.PNG' %}" rel="apple-touch-icon" >
+  <link href="assets/img/favicon.PNG" rel="icon" >
+  <link href="assets/img/apple-touch-icon.PNG" rel="apple-touch-icon" >
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="{% static 'assets_website/vendor/aos/aos.css' %}" rel="stylesheet" >
-  <link href="{% static 'assets_website/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" >
-  <link href="{% static 'assets_website/vendor/bootstrap-icons/bootstrap-icons' %}.css" rel="stylesheet" >
-  <link href="{% static 'assets_website/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet" >
-  <link href="{% static 'assets_website/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet" >
-  <link href="{% static 'assets_website/vendor/remixicon/remixicon.css' %}" rel="stylesheet" >
-  <link href="{% static 'assets_website/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet" >
+  <link href="assets_website/vendor/aos/aos.css" rel="stylesheet" >
+  <link href="assets_website/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+  <link href="assets_website/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" >
+  <link href="assets_website/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" >
+  <link href="assets_website/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" >
+  <link href="assets_website/vendor/remixicon/remixicon.css" rel="stylesheet" >
+  <link href="assets_website/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" >
 
   <!-- Template Main CSS File -->
-  <link href="{% static 'assets_website/css/style.css' %}" rel="stylesheet">
+  <link href="assets_website/css/style.css" rel="stylesheet">
   <style>
     body {
         min-height: 100vh;
@@ -57,22 +56,22 @@
         <div class="logo">
           <div class="row">
             <div class="col-lg-3">
-                <img src="{% static 'assets/img/logo6.png' %}" style="height: 27px;">
+                <img src="assets/img/logo6.png" style="height: 27px;">
             </div>
             <div class="no-mobile col-lg-9">
-                <h1 class="text-light"><a href="{% url 'about_us' %}"><span>e-Funda</span></a></h1>
+                <h1 class="text-light"><a href="about_us.html"><span>e-Funda</span></a></h1>
             </div>
         </div>
         </div>
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto" href=" {% url 'about_us' %}">Home</a></li>
-            <li><a class="nav-link scrollto active" href=" {% url 'features' %}">Features</a></li>
-            <li><a class="nav-link scrollto" href=" {% url 'schedule_demo' %}">Schedule a Demo</a></li>
-            <li><a class="nav-link scrollto " href="{% url 'pricing' %}">Pricing</a></li>
-            <li><a class="nav-link scrollto" href=" {% url 'contact' %}">Contact</a></li>
-            <li><a class="getstarted scrollto" href="{% url 'login_type' %}">e-Funda Login</a></li>
+            <li><a class="nav-link scrollto" href="about_us.html">Home</a></li>
+            <li><a class="nav-link scrollto active" href="features.html">Features</a></li>
+            <li><a class="nav-link scrollto" href="schedule_demo.html">Schedule a Demo</a></li>
+            <li><a class="nav-link scrollto " href="pricing.html">Pricing</a></li>
+            <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+            <li><a class="getstarted scrollto" href="login_type.html">e-Funda Login</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -103,50 +102,50 @@
 
                 <div class="swiper-slide" style="margin: 0px;">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide1.PNG' %}" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt=""> 
+                    <img src="assets_website/img/features/Slide1.PNG" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt=""> 
                   </div>
                 </div><!-- End testimonial item -->
 
                 <div class="swiper-slide" style="margin: 0px;">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide2.PNG' %}"  style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
+                    <img src="assets_website/img/features/Slide2.PNG"  style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
                   </div>
                 </div><!-- End testimonial item -->
 
                 <div class="swiper-slide">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide3.PNG' %}" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
+                    <img src="assets_website/img/features/Slide3.PNG" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
                   </div>
                 </div><!-- End testimonial item -->
 
                 <div class="swiper-slide">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide4.JPG' %}" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
+                    <img src="assets_website/img/features/Slide4.JPG" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
                   </div>
                 </div><!-- End testimonial item -->
 
                 <div class="swiper-slide">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide5.PNG' %}" class="testimonial-img" style="height: 300px; border-radius: 12px;box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); " alt="">              
+                    <img src="assets_website/img/features/Slide5.PNG" class="testimonial-img" style="height: 300px; border-radius: 12px;box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); " alt="">              
                   </div>
                 </div><!-- End testimonial item -->
                 
                 <div class="swiper-slide">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide8.JPG' %}" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
+                    <img src="assets_website/img/features/Slide8.JPG" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
                   </div>
                 </div><!-- End testimonial item -->
 
 
                 <div class="swiper-slide" style="margin: 0px;">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide6.PNG' %}" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt=""> 
+                    <img src="assets_website/img/features/Slide6.PNG" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt=""> 
                   </div>
                 </div><!-- End testimonial item -->
 
                 <div class="swiper-slide" style="margin: 0px;">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide7.PNG' %}"  style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
+                    <img src="assets_website/img/features/Slide7.PNG"  style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
                   </div>
                 </div><!-- End testimonial item -->
 
@@ -155,62 +154,62 @@
                 
                 <div class="swiper-slide">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide9.PNG' %}" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
+                    <img src="assets_website/img/features/Slide9.PNG" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
                   </div>
                 </div><!-- End testimonial item -->
 
                 <div class="swiper-slide">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide10.PNG' %}" class="testimonial-img" style="height: 300px; border-radius: 12px;box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); " alt="">              
+                    <img src="assets_website/img/features/Slide10.PNG" class="testimonial-img" style="height: 300px; border-radius: 12px;box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); " alt="">              
                   </div>
                 </div><!-- End testimonial item -->
 
                 <div class="swiper-slide">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide19.JPG' %}" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
+                    <img src="assets_website/img/features/Slide19.JPG" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
                   </div>
                 </div><!-- End testimonial item -->
 
                 <div class="swiper-slide">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide11.PNG' %}" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
+                    <img src="assets_website/img/features/Slide11.PNG" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
                   </div>
                 </div><!-- End testimonial item -->
 
                 <div class="swiper-slide">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide12.JPG' %}" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
+                    <img src="assets_website/img/features/Slide12.JPG" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
                   </div>
                 </div><!-- End testimonial item -->
                 <div class="swiper-slide">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide13.JPG' %}" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
+                    <img src="assets_website/img/features/Slide13.JPG" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
                   </div>
                 </div><!-- End testimonial item -->
                 <div class="swiper-slide">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide14.JPG' %}" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
+                    <img src="assets_website/img/features/Slide14.JPG" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
                   </div>
                 </div><!-- End testimonial item -->
                 
                 <div class="swiper-slide">
                   <div >
-                    <img src="{% static 'assets_website/img/features/feature5.PNG' %}" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
+                    <img src="assets_website/img/features/feature5.PNG" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
                   </div>
                 </div><!-- End testimonial item -->
                 <div class="swiper-slide">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide15.JPG' %}" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
+                    <img src="assets_website/img/features/Slide15.JPG" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
                   </div>
                 </div><!-- End testimonial item -->
                 <div class="swiper-slide">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide16.JPG' %}" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
+                    <img src="assets_website/img/features/Slide16.JPG" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
                   </div>
                 </div><!-- End testimonial item -->
                 <div class="swiper-slide">
                   <div >
-                    <img src="{% static 'assets_website/img/features/Slide17.JPG' %}" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
+                    <img src="assets_website/img/features/Slide17.JPG" class="testimonial-img" style="height: 300px; border-radius: 12px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" alt="">              
                   </div>
                 </div><!-- End testimonial item -->
 
@@ -252,16 +251,16 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="{% static 'assets_website/vendor/purecounter/purecounter_vanilla.js' %}"></script>
-  <script src="{% static 'assets_website/vendor/aos/aos.js' %}"></script>
-  <script src="{% static 'assets_website/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
-  <script src="{% static 'assets_website/vendor/glightbox/js/glightbox.min.js' %}"></script>
-  <script src="{% static 'assets_website/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
-  <script src="{% static 'assets_website/vendor/swiper/swiper-bundle.min.js' %}"></script>
-  <script src="{% static 'assets_website/vendor/php-email-form/validate.js' %}"></script>
+  <script src="assets_website/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets_website/vendor/aos/aos.js"></script>
+  <script src="assets_website/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets_website/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets_website/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets_website/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets_website/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="{% static 'assets_website/js/main.js' %}"></script>
+  <script src="assets_website/js/main.js"></script>
 
 </body>
 
